@@ -26,7 +26,7 @@ jobs:
       - name: 🧪 Entrenar modelo
         run: make train
 
-      - name: Validar desempeño del modelo
+      - name: ✅ Validar desempeño del modelo
         run: make validate
 
       - name: 📤 Subir modelo como artefacto (si pasa validación)
